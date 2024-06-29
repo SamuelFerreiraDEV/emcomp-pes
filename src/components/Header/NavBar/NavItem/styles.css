@@ -3,5 +3,14 @@ li {
 }
 
 a {
-  color: var(--theme);
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 0.75rem;
+  letter-spacing: 0.075rem;
+  
+}
+
+a:hover {
+  /* text-decoration: underline; */
+  /* color: var(--theme); */
 }

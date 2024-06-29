@@ -1,21 +1,22 @@
 import React from "react"
 import { NavItem } from "./NavItem/NavItem"
 import "./styles.css"
+import { UserButton } from "./UserButton/UserButton"
 
 export function NavBar() {
 
   const navItems = [
     {
       href: "/",
-      text: "Home"
+      text: "HOME"
     },
     {
       href: "/sobre",
-      text: "Sobre Nós"
+      text: "SOBRE NÓS"
     },
     {
       href: "/noticias",
-      text: "Notícias"
+      text: "NOTÍCIAS E EVENTOS"
     },
     {
       href: "/tccs",
@@ -23,15 +24,15 @@ export function NavBar() {
     },
     {
       href: "/parcerias",
-      text: "Parcerias"
+      text: "PARCERIAS"
     },
     {
       href: "/contatos",
-      text: "Contatos"
+      text: "CONTATOS"
     },
     {
       href: "/pigmaker",
-      text: "Pigmaker"
+      text: "PIGMAKER"
     }
   ]
 
@@ -47,6 +48,7 @@ export function NavBar() {
             />
           ))}
       </ul>
+      <UserButton />
     </nav>
   )
 }

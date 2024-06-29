@@ -1,0 +1,36 @@
+.banner-container {
+  position: relative;
+  height: 90vh;
+}
+
+.banner-img {
+  object-fit: cover;
+}
+
+.title {
+  color: #FFFFFF;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 5vw;
+  padding-left: 4rem;
+  font-size: 4.5rem;
+  line-height: 1.2;
+  cursor: default;
+}
+
+.bold-first-letter{
+  font-weight: 800;
+}
+
+.banner-arrow {
+  /* width: fit-content;
+  height: fit-content; */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

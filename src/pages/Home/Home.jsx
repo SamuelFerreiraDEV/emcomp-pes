@@ -1,6 +1,9 @@
 import React from "react"
 import './styles.css'
+import { Banner } from "../../components/Banner/Banner"
 
 export function Home() {
-  return <h1>Home</h1>
+  return (
+    <Banner />
+  )
 }
