@@ -1,0 +1,35 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+  background-color: #F0F0F0;
+  border-radius: 1rem;
+}
+
+.card-image-container {
+  position: relative;
+}
+
+.card-image {
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-image-info {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  /* text-wrap: wrap; */
+  width: 50%;
+  font-size: 0.5rem;
+}
+
+.calendar-icon {
+  width: 2rem;
+}
+
+.arrow-icon {
+  width: 2rem;
+}

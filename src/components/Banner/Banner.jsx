@@ -5,8 +5,8 @@ import "./styles.css"
 
 export function Banner() {
   return (
-    <div className="banner-container">
-      <img src={banner} className="banner-img" />
+    <div className="banner-container no-select">
+      <img src={banner} className="banner-img no-select" />
       <p className="title">
         <span className="bold-first-letter">P</span>lataforma de 
         <br />
