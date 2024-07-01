@@ -1,4 +1,5 @@
 .home-button {
+  width: fit-content;
   border: none;
   border-radius: 1rem;
   color: white;

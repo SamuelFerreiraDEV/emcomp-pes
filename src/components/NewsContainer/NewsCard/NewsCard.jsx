@@ -19,12 +19,12 @@ export function NewsCard() {
       <div className="card-info-container">
         <div className="date-info">
           <img className="calendar-icon" src={calendar} alt="icone calendario" />
-          <p className="date">02, Fevereiro 2024</p>
+          <p className="date main-theme">02, Fevereiro 2024</p>
         </div>
-        <p><strong>RAÇÃO PARA SUÍNOS:</strong> boas práticas para uma nutrição saudável.</p>
+        <p className="card-text"><strong>RAÇÃO PARA SUÍNOS:</strong> boas práticas para uma nutrição saudável.</p>
         <div className="link-to-info">
           <img className="arrow-icon" src={arrow} alt="icone de seta" />
-          <p>Leia mais</p>
+          <p className="main-theme">Leia mais</p>
         </div>
       </div>
     </div>

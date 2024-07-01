@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  gap: 1rem;
   background-color: #F0F0F0;
   border-radius: 1rem;
 }
@@ -17,17 +16,45 @@
 }
 
 .card-image-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 1rem;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  align-items: center;
   color: white;
-  /* text-wrap: wrap; */
-  width: 50%;
   font-size: 0.5rem;
+  margin-left: 1rem;
+}
+
+.card-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.date-info {
+  display: flex;
+  gap: 1rem;
 }
 
 .calendar-icon {
-  width: 2rem;
+  width: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  text-align: start;
+}
+
+.link-to-info {
+  display: flex;
+  gap: 1rem;
 }
 
 .arrow-icon {
