@@ -24,7 +24,7 @@ export function NewsCard() {
         <p className="card-text"><strong>RAÇÃO PARA SUÍNOS:</strong> boas práticas para uma nutrição saudável.</p>
         <div className="link-to-info">
           <img className="arrow-icon" src={arrow} alt="icone de seta" />
-          <p className="main-theme">Leia mais</p>
+          <p>Leia mais</p>
         </div>
       </div>
     </div>
