@@ -20,8 +20,8 @@
 .card-image-info {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  gap: 0.4rem;
+  width: 50%;
+  gap: 0.2rem;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -32,6 +32,11 @@
 }
 
 .card-image-info p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.card-image-info small{
   font-size: 0.8rem;
 }
 
@@ -40,8 +45,8 @@
   flex-direction: column;
   justify-content: end;
   align-items: start;
-  padding: 1rem;
-  gap: 2rem;
+  margin: 2rem;
+  gap: 1.5rem;
 }
 
 .news-card-button {
@@ -51,6 +56,11 @@
 .date-info {
   display: flex;
   gap: 1rem;
+  font-size: 1rem;
+}
+
+.date-info p {
+  font-size: 1rem;
 }
 
 .calendar-icon {
@@ -59,13 +69,24 @@
 
 .card-text {
   font-size: 1rem;
+  font-weight: 600;
   text-align: start;
 }
+
+.card-text strong {
+  font-weight: 800;
+}
+
 
 .link-to-info {
   display: flex;
   gap: 1rem;
   align-items: center;
+  font-weight: 900;
+}
+
+.link-to-info p {
+  font-weight: 600;
 }
 
 .arrow-icon {

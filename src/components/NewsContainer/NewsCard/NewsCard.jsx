@@ -13,7 +13,7 @@ export function NewsCard() {
         <div className="card-image-info">
           <h1>RAÇÃO PARA SUÍNOS:</h1>
           <p>boas práticas para uma nutrição saudável.</p>
-          <HomeButton className="news-card-button" text={"Saiba mais"}/>
+          <HomeButton text={<small>Saiba mais</small>}/>
         </div>
       </div>
       <div className="card-info-container">
@@ -24,7 +24,7 @@ export function NewsCard() {
         <p className="card-text"><strong>RAÇÃO PARA SUÍNOS:</strong> boas práticas para uma nutrição saudável.</p>
         <div className="link-to-info">
           <img className="arrow-icon" src={arrow} alt="icone de seta" />
-          <p><strong>Leia mais</strong></p>
+          <p>Leia mais</p>
         </div>
       </div>
     </div>
