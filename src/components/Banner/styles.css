@@ -7,16 +7,17 @@
   object-fit: cover;
 }
 
-.title {
+.banner-title {
   color: #FFFFFF;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   margin-left: 5vw;
   padding-left: 4rem;
-  font-size: 4.5rem;
+  font-size: 6.5rem;
   line-height: 1.2;
   cursor: default;
+  word-wrap: break-word;
 }
 
 .bold-first-letter{

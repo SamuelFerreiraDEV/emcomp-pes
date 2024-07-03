@@ -7,8 +7,8 @@ export function Banner() {
   return (
     <div className="banner-container no-select">
       <img src={banner} className="banner-img no-select" />
-      <p className="title">
-        <span className="bold-first-letter">P</span>lataforma de 
+      <p className="banner-title">
+        <span className="bold-first-letter">P</span>lataforma de
         <br />
         <span className="bold-first-letter">E</span>studos em 
         <br />

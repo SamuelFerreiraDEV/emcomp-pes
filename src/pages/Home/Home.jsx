@@ -4,6 +4,9 @@ import { Banner } from "../../components/Banner/Banner"
 import { WelcomeContainer } from "../../components/WelcomeContainer/WelcomeContainer"
 import { AboutContainer } from "../../components/AboutContainer/AboutContainer"
 import { NewsContainer } from "../../components/NewsContainer/NewsContainer"
+import { TccsContainer } from "../../components/TccsContainer/TccsContainer"
+import { Sponsors } from "../../components/Sponsors/Sponsors"
+import { InfosBanner } from "../../components/InfosBanner/InfosBanner"
 
 export function Home() {
 
@@ -13,6 +16,9 @@ export function Home() {
       <WelcomeContainer />
       <AboutContainer />
       <NewsContainer />
+      <TccsContainer />
+      <Sponsors />
+      <InfosBanner />
     </div>
   )
 }
