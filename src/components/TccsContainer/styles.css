@@ -5,9 +5,9 @@
   justify-content: center;
   text-align: center;
   line-height: 1.2;
-  gap: 1.5rem;
+  gap: 2em;
   color: var(--home-text);
-  margin: 0 30vw;
+  margin: 0 20vw;
 }
 
 .tccs-cards-container {

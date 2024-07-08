@@ -1,11 +1,19 @@
 .home-button {
   width: fit-content;
   border: none;
-  border-radius: 1rem;
+  border-radius: 1.2rem;
   color: white;
   background-color: var(--theme);
   cursor: pointer;
-  padding: 0.3rem 0.8rem;
-  font-size: 1rem;
   font-weight: 400;
+}
+
+.button-size-md {
+  padding: 0.4rem 1.2rem;
+  font-size: 1.4rem;
+}
+
+.button-size-sm {
+  padding: 0.2rem 0.6rem;
+  font-size: 0.6rem;
 }

@@ -7,9 +7,9 @@ export function WelcomeContainer() {
   return (
     <div className="welcome-container">
       <div className="welcome-text-container">
-        <h1 className="main-theme welcome-title">Bem-vindo a nossa <strong>Plataforma de <br/>Estudos em Suinocultura!</strong></h1>
-        <p>Aqui você encontrará informações, dicas e as <br/>melhores práticas para otimizar sua criação de <br/>suínos.</p>
-        <HomeButton text={"Veja como"} />
+        <h1 className="main-theme welcome-title home-title">Bem-vindo a nossa <strong>Plataforma de <br/>Estudos em Suinocultura!</strong></h1>
+        <p className="home-subtitle">Aqui você encontrará informações, dicas e as <br/>melhores práticas para otimizar sua criação de <br/>suínos.</p>
+        <HomeButton sizeClass={"button-size-md"} text={"Veja como"} />
       </div>
       <div className="welcome-image-container">
         <img src={welcome} alt="imagem bem-vindos" /> 

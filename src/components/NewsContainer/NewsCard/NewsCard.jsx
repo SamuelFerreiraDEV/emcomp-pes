@@ -13,7 +13,7 @@ export function NewsCard() {
         <div className="card-image-info">
           <h1>RAÇÃO PARA SUÍNOS:</h1>
           <p>boas práticas para uma nutrição saudável.</p>
-          <HomeButton text={<small>Saiba mais</small>}/>
+          <HomeButton sizeClass={"button-size-sm"} text={<small>Saiba mais</small>}/>
         </div>
       </div>
       <div className="card-info-container">
