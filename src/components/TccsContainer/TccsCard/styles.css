@@ -1,0 +1,50 @@
+.tccs-card-container {
+  grid-row: span;
+  grid-column: span;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.25);
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.tccs-card-text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-weight: bold;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.tccs-card-text p{
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.tccs-card-date-button {
+  display: flex;
+  width: 100%;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+
+.tccs-card-date {
+  display: flex;
+  gap: 0.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.tccs-calendar-icon {
+  width: 1.1rem;
+}
+
+.tcc-date{
+  padding-top: 0.1rem;
+  font-size: 0.8rem;
+}

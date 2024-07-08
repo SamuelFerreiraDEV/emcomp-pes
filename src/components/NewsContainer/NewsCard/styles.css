@@ -1,0 +1,108 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #F0F0F0;
+  color: black;
+  border-radius: 1rem;
+  box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-image-container {
+  position: relative;
+}
+
+.card-image {
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card-image-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.2rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  align-items: center;
+  color: white;
+  font-size: 0.5rem;
+  margin-left: 1rem;
+}
+
+.card-image-info p {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.card-image-info small{
+  font-size: 0.8rem;
+}
+
+.card-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  margin: 2rem;
+  gap: 1.5rem;
+}
+
+.date-info {
+  display: flex;
+  gap: 0.6rem;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.date-info p {
+  font-size: 0.8rem;
+}
+
+.calendar-icon {
+  width: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 600; /* <<<<<<< MOSTRAR ISSO*/
+  text-align: start;
+}
+
+/* .card-text strong {
+  font-weight: 800;
+} */
+
+
+.link-to-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 900;
+}
+
+.link-to-info p {
+  font-weight: 600;
+}
+
+.arrow-icon {
+  width: 1.7rem;
+}
+
+.button-see-more{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--black);
+  transition: all 0.4s ease-in-out;
+}
+
+.button-see-more:hover {
+  transform: translateX(0.2rem);
+}
+
+.button-see-more p{
+  padding-top: 0.1rem;
+  font-size: 1rem;
+  font-weight: 700;
+}

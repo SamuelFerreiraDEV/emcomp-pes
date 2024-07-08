@@ -1,0 +1,29 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  gap: 2vh;
+}
+
+.footer-infos {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  /* font-weight: lighter; */
+  color: var(--home-text);
+}
+
+.footer-info p {
+  font-weight: 600;
+  
+}
+
+.footer-rights {
+  padding: 2vh;
+  color: var(--home-text);
+}

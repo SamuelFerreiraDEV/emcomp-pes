@@ -1,0 +1,18 @@
+.tccs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.2;
+  gap: 2em;
+  color: var(--home-text);
+  margin: 0 20vw;
+}
+
+.tccs-cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 20vw);
+  align-items: center;
+  gap: 2rem 5rem;
+}

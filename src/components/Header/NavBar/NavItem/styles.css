@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  letter-spacing: 0.075rem;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  /* text-decoration: underline; */
+  /* color: var(--theme); */
+}

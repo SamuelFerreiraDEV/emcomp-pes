@@ -1,0 +1,6 @@
+nav, ul {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
