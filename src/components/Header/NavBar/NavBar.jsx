@@ -1,6 +1,6 @@
 import React from "react"
 import { NavItem } from "./NavItem/NavItem"
-import "./styles.css"
+// import "./styles.css"
 import { UserButton } from "./UserButton/UserButton"
 
 export function NavBar() {
@@ -37,8 +37,8 @@ export function NavBar() {
   ]
 
   return (
-    <nav>
-      <ul>
+    <nav className="flex gap-6 justify-evenly items-center">
+      <ul className="flex gap-6 justify-evenly items-center">
         {navItems.map(
           ({ href, text }) => (
             <NavItem 

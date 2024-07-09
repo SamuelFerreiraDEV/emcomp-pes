@@ -1,34 +1,34 @@
 .banner-container {
-  position: relative;
-  height: 90vh;
+  /* position: relative; */
+  /* height: 90vh; */
 }
 
 .banner-img {
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 .banner-title {
-  color: #FFFFFF;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  margin-left: 5vw;
-  padding-left: 4rem;
-  font-size: 5.5rem;
-  line-height: 1.2;
-  cursor: default;
-  word-wrap: break-word;
+  /* color: #FFFFFF; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  /* margin-left: 5vw; */
+  /* padding-left: 4rem; */
+  /* font-size: 5.5rem; */
+  /* line-height: 1.2; */
+  /* cursor: default; */
+  /* word-wrap: break-word; */
 }
 
-.bold-first-letter{
+/* .bold-first-letter{
   font-weight: 800;
-}
+} */
 
-.banner-arrow {
+/* .banner-arrow {
   position: absolute;
   bottom: 0;
   left: 50%;  
   height: 4.5rem;
   transform: translate(-50%, -50%);
   z-index: 1;
-}
+} */

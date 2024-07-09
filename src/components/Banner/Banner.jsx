@@ -1,7 +1,6 @@
 import React from "react"
 import banner from "../../assets/banner.webp"
 import arrow from "../../assets/bannerArrow.svg"
-import "./styles.css"
 
 const scrollToComponent = () => {  // white
   window.scrollBy({
@@ -12,17 +11,17 @@ const scrollToComponent = () => {  // white
 
 export function Banner() {
   return (
-    <div className="banner-container no-select">
-      <img src={banner} className="banner-img no-select" />
-      <p className="banner-title">
-        <span className="bold-first-letter">P</span>lataforma de
+    <div className="banner-container relative h-90vh bg-slate-300 banner-container no-select">
+      <img src={banner} className="banner-img absolute h-full object-cover" />
+      <p className="banner-title absolute text-white top-1/2 -translate-y-1/2 ml-[5vw] pl-16 text-[5.5rem] leading-tight">
+        <span className="font-bold">P</span>lataforma de
         <br />
-        <span className="bold-first-letter">E</span>studos em 
+        <span className="font-bold">E</span>studos em 
         <br />
-        <span className="bold-first-letter">S</span>uinocultura
+        <span className="font-bold">S</span>uinocultura
       </p>
-      <button onClick={scrollToComponent}>
-        <img src={arrow} className="banner-arrow" />
+      <button className="h-4 w-4 bg-red-700" onClick={scrollToComponent}>
+        <img src={arrow} className="banner-arrow absolute left-1/2 bottom-0 h-16 -translate-x-1/2 -translate-y-1/2 w-fit" />
       </button>
     </div>
   )
