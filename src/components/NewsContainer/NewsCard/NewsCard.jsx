@@ -9,9 +9,9 @@ export function NewsCard() {
   return (
     <div className="card-container flex flex-col bg-[#F0F0F0] text-black rounded-2xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
       <div className="image-container relative">
-        <img className="card-image object-cover rounded-t-2xl" src={cardImage} alt="Imagem do card" />
-        <div className="card-image-info flex flex-col w-1/2 gap-1 absolute top-1/2 -translate-y-1/2 items-center text-white text-xs ml-4">
-          <h1>RAÇÃO PARA SUÍNOS:</h1>
+        <img className="card-image object-cover w-full rounded-t-2xl" src={cardImage} alt="Imagem do card" />
+        <div className="card-image-info flex flex-col w-1/2 gap-1 absolute top-1/2 -translate-y-1/2 items-center text-white text-sm ml-4">
+          <h1 className="font-bold">RAÇÃO PARA SUÍNOS:</h1>
           <p className="text-sm">boas práticas para uma nutrição saudável.</p>
           <HomeButton sizeClass={"button-size-sm"} text={<small className="text-xs">Saiba mais</small>}/>
         </div>
