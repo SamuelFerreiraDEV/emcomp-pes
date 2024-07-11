@@ -20,6 +20,10 @@
   box-sizing: border-box;
 }
 
+/* .main-theme {
+  color: var(--theme);
+} */
+
 .no-select {
   user-select: none;
   -webkit-user-drag: none;

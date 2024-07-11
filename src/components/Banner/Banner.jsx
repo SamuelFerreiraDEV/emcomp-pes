@@ -11,8 +11,8 @@ const scrollToComponent = () => {  // white
 
 export function Banner() {
   return (
-    <div className="banner-container relative h-90vh bg-slate-300 banner-container no-select">
-      <img src={banner} className="banner-img absolute h-full object-cover" />
+    <div className="banner-container relative h-[90vh] banner-container no-select">
+      <img src={banner} className="banner-img absolute h-full w-full object-cover" />
       <p className="banner-title absolute text-white top-1/2 -translate-y-1/2 ml-[5vw] pl-16 text-[5.5rem] leading-tight">
         <span className="font-bold">P</span>lataforma de
         <br />

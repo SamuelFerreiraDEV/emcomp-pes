@@ -1,5 +1,5 @@
 import React from "react"
-import './styles.css'
+// import './styles.css'
 import { Banner } from "../../components/Banner/Banner"
 import { WelcomeContainer } from "../../components/WelcomeContainer/WelcomeContainer"
 import { AboutContainer } from "../../components/AboutContainer/AboutContainer"
@@ -11,7 +11,7 @@ import { InfosBanner } from "../../components/InfosBanner/InfosBanner"
 export function Home() {
 
   return (
-    <div className="flex flex-col gap-20vh">
+    <div className="home flex flex-col gap-[20vh]">
       <Banner />
       <WelcomeContainer />
       <AboutContainer />

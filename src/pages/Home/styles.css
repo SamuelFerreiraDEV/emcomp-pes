@@ -1,12 +1,7 @@
-/* .home {
+.home {
   display: flex;
   flex-direction: column;
   gap: 20vh;
-} */
-
-.main-theme {
-  color: var(--theme);
-  
 }
 
 .home-title {

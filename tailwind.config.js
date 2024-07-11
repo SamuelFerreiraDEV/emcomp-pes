@@ -6,12 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      height: {
-        "90vh": "90vh",
+      colors: {
+        "theme": "#DDAD77",
+        "black70": "rgba(0, 0, 0, 0.7);"
       },
-      gap: {
-        "20vh": "20vh",
-      }
     },
   },
   plugins: [],

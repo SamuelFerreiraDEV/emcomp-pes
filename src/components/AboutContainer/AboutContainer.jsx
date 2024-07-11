@@ -1,18 +1,18 @@
 import React from "react"
 import about from "../../assets/homeAbout.svg"
-import "./styles.css"
+// import "./styles.css"
 import { HomeButton } from "../HomeButton/HomeButton"
 
 export function AboutContainer() {
   return (
-    <div className="about-container">
-      <div className="about-text-container">
-        <h1 className="main-theme home-title">Sobre nós:</h1>
-        <p className="home-subtitle">Fundado por pessoas apaixonadas pela suinocultura, nosso<br/> site oferece uma ampla gama de recursos, desde artigos<br/> científicos e estudos de caso até dicas práticas e notícias<br/> do setor. Nosso objetivo é fornecer informações de alta<br/> qualidade para produtores, pesquisadores, estudantes e<br/> todos aqueles interessados no bem-estar dos suínos e na<br/> melhoria contínua das práticas de criação.</p>
+    <div className="about-container flex flex-row-reverse justify-evenly">
+      <div className="text-container flex flex-col items-center justify-center text-center gap-6 text-black70">
+        <h1 className=" text-theme text-4xl leading-tight -mb-2">Sobre nós:</h1>
+        <p className="text-2xl leading-tight">Fundado por pessoas apaixonadas pela suinocultura, nosso<br/> site oferece uma ampla gama de recursos, desde artigos<br/> científicos e estudos de caso até dicas práticas e notícias<br/> do setor. Nosso objetivo é fornecer informações de alta<br/> qualidade para produtores, pesquisadores, estudantes e<br/> todos aqueles interessados no bem-estar dos suínos e na<br/> melhoria contínua das práticas de criação.</p>
         <HomeButton sizeClass={"button-size-md"} text={"Saiba mais"} />
       </div>
       <div className="about-image-container">
-        <img src={about} alt="imagem sobre" /> 
+        <img src={about} alt="imagem sobre" className="w-[40vw] rounded-[4rem]" /> 
       </div>
     </div>
   )
