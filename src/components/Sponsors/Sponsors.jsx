@@ -1,5 +1,5 @@
 import React from "react"
-import "./styles.css"
+// import "./styles.css"
 import sponsor1 from "../../assets/sponsor1.svg"
 import sponsor2 from "../../assets/sponsor2.svg"
 import sponsor3 from "../../assets/sponsor3.svg"
@@ -27,11 +27,11 @@ export function Sponsors() {
   ]
 
   return (
-    <div className="sponsors-container">
-      <h1 className="main-theme">Patrocinadores</h1>
-      <div className="sponsors-logos">
+    <div className="sponsors-container flex flex-col items-center gap-8">
+      <h1 className=" text-theme text-4xl -mb-2 font-bold">Patrocinadores</h1>
+      <div className="sponsors-logos flex justify-center items-center gap-20">
         {sponsors.map(({ logo }) => {
-          return <img className="sponsor-logo" src={logo} key={logo}/>
+          return <img className="sponsor-logo w-[10vw]" src={logo} key={logo}/>
         })}
       </div>
     </div>

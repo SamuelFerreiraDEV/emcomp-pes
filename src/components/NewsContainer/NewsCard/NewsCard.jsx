@@ -13,7 +13,7 @@ export function NewsCard() {
         <div className="card-image-info flex flex-col w-1/2 gap-1 absolute top-1/2 -translate-y-1/2 items-center text-white text-sm ml-4">
           <h1 className="font-bold">RAÇÃO PARA SUÍNOS:</h1>
           <p className="text-sm">boas práticas para uma nutrição saudável.</p>
-          <HomeButton sizeClass={"button-size-sm"} text={<small className="text-xs">Saiba mais</small>}/>
+          <HomeButton sizeClass={"sm"} text={<small className="text-xs">Saiba mais</small>}/>
         </div>
       </div>
       <div className="card-info-container flex flex-col justify-end items-start m-8 gap-6">

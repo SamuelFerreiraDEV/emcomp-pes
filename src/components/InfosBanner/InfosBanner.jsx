@@ -1,5 +1,5 @@
 import React from "react"
-import "./styles.css"
+// import "./styles.css"
 import whats from "../../assets/whats.svg"
 import email from "../../assets/email.svg"
 import maps from "../../assets/maps.svg"
@@ -26,16 +26,16 @@ export function InfosBanner() {
   ]
 
   return (
-    <div className="infos-container">
+    <div className="infos-container -mt-[10vh] flex bg-theme items-center justify-center p-4">
       {infos.map(({ logo, text_w, text_b }) => {
         return (
           <>
-            <div className="info" key={text_w}>
-              <img src={logo} alt="info logo" />
+            <div className="info flex flex-col items-center w-1/3 gap-2 text-white font-semibold" key={logo}>
+              <img src={logo} alt="info logo" className="w-[3vw]" />
               {text_w}
-              <p className="info-b">{text_b}</p>
+              <p className="info-b text-black70">{text_b}</p>
             </div>
-              <img className="vertical-line" src={verticalLine} />
+            <img className="vertical-line w-[0.2%]" src={verticalLine} />
           </>
         )
       })}
