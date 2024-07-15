@@ -21,7 +21,7 @@ export function Banner() {
         <span className="font-bold">S</span>uinocultura
       </p>
       <button className="h-4 w-4 bg-red-700" onClick={scrollToComponent}>
-        <img src={arrow} className="banner-arrow absolute left-1/2 bottom-0 h-16 -translate-x-1/2 -translate-y-1/2 w-fit" />
+        <img src={arrow} className="animate-bounce banner-arrow absolute left-1/2 bottom-0 h-16 -translate-x-1/2 -translate-y-1/2 w-fit" />
       </button>
     </div>
   )

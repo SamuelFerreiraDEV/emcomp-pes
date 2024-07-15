@@ -23,7 +23,7 @@ export function NewsCard() {
         </div>
         <p className="card-text text-base font-semibold text-start"><strong>RAÇÃO PARA SUÍNOS:</strong> boas práticas para uma nutrição saudável.</p>
         <div className="link-to-info flex gap-4 items-center">
-          <a href="/login" className="button-see-more flex items-center gap-2 text-black transition-all duration-500 ease-in-out hover:translate-x-1">
+          <a href="/login" className="button-see-more flex items-center gap-2 text-black transition-all duration-500 ease-in-out hover:translate-x-2">
             <img className="arrow-icon w-7" src={arrow} alt="icone de seta" />
             <p className="font-bold tracking-wider">Leia mais</p>
           </a>
