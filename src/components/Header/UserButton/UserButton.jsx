@@ -1,5 +1,5 @@
 import React from "react"
-import userIcon from "../../../../assets/userIcon.svg"
+import userIcon from "../../../assets/userIcon.svg"
 // import "./styles.css"
 
 export function UserButton() {
