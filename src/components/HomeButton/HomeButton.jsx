@@ -1,18 +1,19 @@
-import React from "react"
+import React from "react";
 // import "./styles.css"
 
-// eslint-disable-next-line react/prop-types
-export function HomeButton({ sizeClass,text }) {
-
+export function HomeButton({ sizeClass, text }) {
   const variants = {
-    sm: "px-2 p- text-xs",
+    mobile_md: "px-2 py-1 text-[0.5rem]",
+    sm: "px-2 text-xs",
     md: "px-5 py-2 text-2xl",
     tcc: "px-2 py-1 text-sm",
-  }
+  };
 
   return (
-    <button className={`home-button w-fit text-white bg-theme rounded-[5rem] ${variants[sizeClass]}`}>
+    <button
+      className={`home-button w-fit rounded-[5rem] bg-theme text-white ${variants[sizeClass]}`}
+    >
       {text}
     </button>
-  ) 
+  );
 }

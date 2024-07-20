@@ -8,7 +8,7 @@
 }
 
 .banner-title {
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -20,14 +20,14 @@
   word-wrap: break-word;
 }
 
-.bold-first-letter{
+.bold-first-letter {
   font-weight: 800;
 }
 
 .banner-arrow {
   position: absolute;
   bottom: 0;
-  left: 50%;  
+  left: 50%;
   height: 4.5rem;
   transform: translate(-50%, -50%);
   z-index: 1;

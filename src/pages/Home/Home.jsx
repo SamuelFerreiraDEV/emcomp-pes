@@ -1,17 +1,16 @@
-import React from "react"
+import React from "react";
 // import './styles.css'
-import { Banner } from "../../components/Banner/Banner"
-import { WelcomeContainer } from "../../components/WelcomeContainer/WelcomeContainer"
-import { AboutContainer } from "../../components/AboutContainer/AboutContainer"
-import { NewsContainer } from "../../components/NewsContainer/NewsContainer"
-import { TccsContainer } from "../../components/TccsContainer/TccsContainer"
-import { Sponsors } from "../../components/Sponsors/Sponsors"
-import { InfosBanner } from "../../components/InfosBanner/InfosBanner"
+import { Banner } from "../../components/Banner/Banner";
+import { WelcomeContainer } from "../../components/WelcomeContainer/WelcomeContainer";
+import { AboutContainer } from "../../components/AboutContainer/AboutContainer";
+import { NewsContainer } from "../../components/NewsContainer/NewsContainer";
+import { TccsContainer } from "../../components/TccsContainer/TccsContainer";
+import { Sponsors } from "../../components/Sponsors/Sponsors";
+import { InfosBanner } from "../../components/InfosBanner/InfosBanner";
 
 export function Home() {
-
   return (
-    <div className="bg-red-400 home flex flex-col gap-[20vh]">
+    <div className="home flex flex-col gap-[20vh]">
       <Banner />
       <WelcomeContainer />
       <AboutContainer />
@@ -20,5 +19,5 @@ export function Home() {
       <Sponsors />
       <InfosBanner />
     </div>
-  )
+  );
 }

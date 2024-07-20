@@ -1,5 +1,5 @@
-import React from "react"
-import userIcon from "../../../assets/userIcon.svg"
+import React from "react";
+import userIcon from "../../../assets/userIcon.svg";
 // import "./styles.css"
 
 export function UserButton() {
@@ -7,5 +7,5 @@ export function UserButton() {
     <a href="/login">
       <img src={userIcon} alt="user button"></img>
     </a>
-  )
+  );
 }
