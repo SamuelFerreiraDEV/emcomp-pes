@@ -5,7 +5,7 @@ import React from "react"
 export function NavItem({ href, text }) {
   return (
     <li>
-      <a href={href} className="tracking-[.075rem] text-sm">
+      <a href={href} className="text-nowrap tracking-[.075rem] text-sm">
         {text}
       </a>
     </li>

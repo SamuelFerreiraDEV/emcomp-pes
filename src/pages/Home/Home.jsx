@@ -11,7 +11,7 @@ import { InfosBanner } from "../../components/InfosBanner/InfosBanner"
 export function Home() {
 
   return (
-    <div className="home flex flex-col gap-[20vh]">
+    <div className="bg-red-400 home flex flex-col gap-[20vh]">
       <Banner />
       <WelcomeContainer />
       <AboutContainer />

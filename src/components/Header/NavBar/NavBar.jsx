@@ -1,7 +1,6 @@
 import React from "react"
 import { NavItem } from "./NavItem/NavItem"
 // import "./styles.css"
-import { UserButton } from "../UserButton/UserButton"
 import { navItems } from "@/utils/data";
 
 export function NavBar() {
