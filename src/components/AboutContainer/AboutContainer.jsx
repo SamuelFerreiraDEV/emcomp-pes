@@ -33,7 +33,7 @@ export function AboutContainer() {
   );
 }
 
-<div className="about-container flex flex-row-reverse justify-evenly">
+/* <div className="about-container flex flex-row-reverse justify-evenly">
   <div className="text-container flex flex-col items-center justify-center gap-6 text-center text-black70">
     <h1 className="-mb-2 text-4xl font-bold leading-tight text-theme">
       Sobre nós:
@@ -52,4 +52,4 @@ export function AboutContainer() {
   <div className="about-image-container">
     <img src={about} alt="imagem sobre" className="w-[40vw] rounded-[4rem]" />
   </div>
-</div>;
+</div>; */

@@ -1,7 +1,7 @@
 import React from "react";
 import welcome from "../../assets/homeWelcome.svg";
-// import "./styles.css"
 import { HomeContainer } from "../HomeContainer/HomeContainer";
+// import "./styles.css"
 
 export function WelcomeContainer() {
   return (
