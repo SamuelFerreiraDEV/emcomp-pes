@@ -16,7 +16,7 @@ export function MobileMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="flex items-center bg-theme text-white text-sm h-fit">
+          <NavigationMenuTrigger className="flex h-fit items-center bg-theme text-sm text-white">
             MENU
           </NavigationMenuTrigger>
           <NavigationMenuContent className="flex flex-col items-start gap-4 text-nowrap p-6 text-sm text-theme">

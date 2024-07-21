@@ -14,7 +14,7 @@ export function Banner() {
   return (
     <section className="no-select relative h-[90vh]">
       <img src={banner} className="absolute h-full w-full object-cover" />
-      <p className="absolute top-1/2 ml-[5vw] -translate-y-1/2 cursor-default leading-tight text-white text-4xl 2xl:text-[5.5rem]">
+      <p className="absolute top-1/2 ml-[5vw] -translate-y-1/2 cursor-default text-4xl leading-tight text-white 2xl:text-[5.5rem]">
         <span className="font-bold">P</span>lataforma de
         <br />
         <span className="font-bold">E</span>studos em
