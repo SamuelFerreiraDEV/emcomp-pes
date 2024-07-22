@@ -12,19 +12,10 @@
   text-align: center;
   line-height: 1.2;
   gap: 1.5rem;
-  color: var(--home-text);
+  color: var(--black70);
 }
 
-.welcome-title {
-  font-weight: 400;
-}
-
-p {
-  font-size: 1.2rem;
-  font-weight: 400;
-}
-
-.welcome-image-container img{
+.welcome-image-container img {
   width: 40vw;
   border-radius: 4rem;
 }

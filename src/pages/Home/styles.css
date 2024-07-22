@@ -4,11 +4,6 @@
   gap: 20vh;
 }
 
-.main-theme {
-  color: var(--theme);
-  
-}
-
 .home-title {
   font-size: 2.5rem;
   margin-bottom: -0.5rem;

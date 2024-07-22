@@ -15,8 +15,7 @@
   color: var(--home-text);
 }
 
-
-.about-image-container img{
+.about-image-container img {
   width: 40vw;
   border-radius: 4rem;
 }

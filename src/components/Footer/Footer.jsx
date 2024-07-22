@@ -1,8 +1,7 @@
-import React from "react"
-import "./styles.css"
+import React from "react";
+import "./styles.css";
 
 export function Footer() {
-  
   let footerInfos = [
     {
       title: `PES\nPlataforma de\nEstudos em\nSuinocultura`,
@@ -46,26 +45,25 @@ export function Footer() {
       ref2: "Referência 2",
       ref3: "Referência 3",
     },
-  ]
+  ];
 
   return (
     <footer className="footer-container">
       <div className="footer-infos">
         {footerInfos.map(({ title, ref1, ref2, ref3 }) => {
-          return ( 
+          return (
             <div className="footer-info" key={title}>
               <p>{title}</p>
               <small>{ref1}</small>
               <small>{ref2}</small>
               <small>{ref3}</small>
             </div>
-          )
+          );
         })}
       </div>
       <div className="footer-rights">
         © 2024 PES | IFSEMG. Todos os direitos reservados
       </div>
     </footer>
-  )
-
+  );
 }
