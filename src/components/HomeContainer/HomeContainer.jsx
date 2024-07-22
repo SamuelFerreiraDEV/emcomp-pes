@@ -3,7 +3,7 @@ import { HomeButton } from "../HomeButton/HomeButton";
 import { useScreenSize } from "../../hooks/useScreenSize";
 
 export function HomeContainer({
-  className,
+  containerClassName,
   title,
   subtitle,
   buttonText,
@@ -13,7 +13,7 @@ export function HomeContainer({
   const screenSize = useScreenSize();
 
   return (
-    <div className={`-mt-[6vh] flex justify-evenly ${className}`}>
+    <div className={`flex ${containerClassName}`}>
       <section className="flex flex-col items-center justify-center gap-2 text-center leading-tight text-black70 xl:gap-6">
         <h1 className="text-[0.75rem] font-bold text-theme xl:text-4xl">
           {title}

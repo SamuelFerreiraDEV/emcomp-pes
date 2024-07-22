@@ -5,7 +5,7 @@ import { WelcomeContainer } from "../../components/WelcomeContainer/WelcomeConta
 import { AboutContainer } from "../../components/AboutContainer/AboutContainer";
 import { NewsContainer } from "../../components/NewsContainer/NewsContainer";
 import { TccsContainer } from "../../components/TccsContainer/TccsContainer";
-import { Sponsors } from "../../components/Sponsors/Sponsors";
+import { SponsorsContainer } from "../../components/SponsorsContainer/SponsorsContainer";
 import { InfosBanner } from "../../components/InfosBanner/InfosBanner";
 
 export function Home() {
@@ -16,7 +16,7 @@ export function Home() {
       <AboutContainer />
       <NewsContainer />
       <TccsContainer />
-      <Sponsors />
+      <SponsorsContainer />
       <InfosBanner />
     </div>
   );

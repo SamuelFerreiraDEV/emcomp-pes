@@ -1,13 +1,12 @@
 import React from "react";
 import about from "../../assets/homeAbout.svg";
 // import "./styles.css"
-import { HomeButton } from "../HomeButton/HomeButton";
 import { HomeContainer } from "../HomeContainer/HomeContainer";
 
 export function AboutContainer() {
   return (
     <HomeContainer
-      className="flex-row-reverse"
+      containerClassName="flex-row-reverse justify-evenly"
       title="Sobre nós:"
       subtitle={
         <>
